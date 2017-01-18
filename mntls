@@ -1,0 +1,8 @@
+echo "--------------VERIFY w/ linux ROOT disk-------------------"
+sudo mount diskimage /mnt
+sudo ls -alR /mnt
+sudo umount /mnt
+echo "--------------VERIFY w/ linux MOUNTED disk-----------------"
+sudo mount mountme /mnt
+sudo ls -alR /mnt
+sudo umount /mnt

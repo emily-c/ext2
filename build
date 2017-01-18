@@ -1,0 +1,3 @@
+cp diskimage_bak diskimage
+cp diskimage mountme
+gcc -g -Wall *.c -o fs
